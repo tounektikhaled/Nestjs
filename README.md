@@ -4,7 +4,7 @@ Ce projet est un modèle pour créer des applications web robustes en utilisant 
 ## Table des Matières
 - [Overview](#overview)
 - [Installation](#installation)
-- - [PostgreSQL](#postgreSQL)
+  - [PostgreSQL](#postgreSQL)
 - [Utilisation](#utilisation)
 
 ## Overview
