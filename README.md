@@ -9,7 +9,7 @@ Ce projet est un modèle pour créer des applications web robustes en utilisant 
 - [Licence](#licence)
 
 ## Overview
-Ce projet est une plateforme de blog backend construite avec NestJS. Il comprend deux modules : un module pour la gestion des utilisateurs utilisant DTO (Data Transfer Objects) et un module pour la gestion des employés utilisant Prisma. La base de données utilisée est PostgreSQL.
+Ce projet est un modèle pour créer des applications web robustes en utilisant NestJS. Il est conçu pour servir de base à diverses applications backend. Le modèle comprend deux modules : un module pour la gestion des utilisateurs utilisant des DTO (Data Transfer Objects) et un module pour la gestion des employés utilisant Prisma. La base de données utilisée est PostgreSQL.
 
 ## Installation
   1.  Clonez ce dépôt : git clone https://github.com/tounektikhaled/Nestjs.git
