@@ -6,7 +6,6 @@ Ce projet est un modèle pour créer des applications web robustes en utilisant 
 - [Installation](#installation)
 - - [PostgreSQL](#postgreSQL)
 - [Utilisation](#utilisation)
-- [Licence](#licence)
 
 ## Overview
 Ce projet est un modèle pour créer des applications web robustes en utilisant NestJS. Il est conçu pour servir de base à diverses applications backend. Le modèle comprend deux modules : un module pour la gestion des utilisateurs utilisant des DTO (Data Transfer Objects) et un module pour la gestion des employés utilisant Prisma. La base de données utilisée est PostgreSQL.
@@ -19,12 +18,10 @@ Ce projet est un modèle pour créer des applications web robustes en utilisant 
   Assurez-vous d'avoir PostgreSQL installé sur votre machine. Vous pouvez télécharger PostgreSQL depuis le site officiel. Une fois PostgreSQL installé, créez une base de données pour votre application.
 
 ## Utilisation
-Pour démarrer le serveur de développement : npm run start:dev
-Cela démarrera le serveur sur http://localhost:3000.
+- Pour démarrer le serveur de développement : npm run start:dev
+- Cela démarrera le serveur sur http://localhost:3000.
 
 ## Modules
-    Module Employees (avec Prisma)
-    Module Users(avec DTO)
+- Module Employees (avec Prisma)
+- Module Users(avec DTO)
 
-## Licence
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
