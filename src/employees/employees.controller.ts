@@ -9,7 +9,7 @@ import { MyLoggerService } from 'src/my-logger/my-logger.service';
 export class EmployeesController {
   constructor(private readonly employeesService: EmployeesService) { }
   private readonly logger = new MyLoggerService(EmployeesController.name)
-  
+
   @Post()
   create(@Body() createEmployeeDto: Prisma.EmployeeCreateInput) {
     return this.employeesService.create(createEmployeeDto);
@@ -22,7 +22,7 @@ export class EmployeesController {
     return this.employeesService.findAll(role);
   }
 
-  @Throttle({ short: { ttl: 1000, limit: 1 }})
+  @Throttle({ short: { ttl: 1000, limit: 1 } })
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.employeesService.findOne(+id);
